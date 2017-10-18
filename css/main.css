@@ -1,0 +1,20 @@
+/* usando el selctor universal con la propiedad el border box para que las cajas sean del mismo tamaño*/
+*{
+  box-sizing: border-box;
+}
+/*LLamando a la clase orange, spara colocar las medidas necesarias*/
+div{
+  width:250px;
+  height:150px;
+  margin: 4px;
+  padding: 8px;
+}
+/*utilizando el selector de clase yellow con la propiedad background-color y su valor rgb*/
+.yellow{
+  background-color: rgb(240,175,20);
+}
+/*utilizando el selector de clase black que asigne un color de fondo black*/
+.black{
+  background-color: #373535;
+  color: white;
+}
